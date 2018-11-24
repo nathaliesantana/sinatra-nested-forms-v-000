@@ -5,7 +5,7 @@ class Ship
 
   def initialize(params)
     @name= params[:name]
-    @weight= params[:type]
+    @type= params[:type]
     @booty= params[:booty]
     @@all << self
   end
